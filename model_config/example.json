@@ -1,0 +1,19 @@
+{
+    "model": {
+        "Conv2D_1": {
+            "filters": 16,
+            "kernel_size": [3, 3],
+            "activation": "relu"
+        },
+        "Conv2D_2": {
+            "filters": 32,
+            "kernel_size": [3, 3],
+            "activation": "relu"
+        },
+        "Flatten_1": {},
+        "Dense_1": {
+            "units": 64,
+            "activation": "relu"
+        }
+    }
+}
