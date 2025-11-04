@@ -8,6 +8,10 @@ import time
 import pandas as pd
 import sys
 
+import matplotlib as mpl
+mpl.rcParams['animation.ffmpeg_path'] = r"C:\Users\Marco\AppData\Local\Microsoft\WinGet\Links\ffmpeg.exe"
+
+
 def calculate_discounted_rewards(rewards, discount_factor=0.99):
     """Utility to calculate rewards discounted for
     future values, useful in policy gradient, A2C
