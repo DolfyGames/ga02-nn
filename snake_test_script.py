@@ -1,7 +1,9 @@
-from game_environment import Snake # why is the original git repo wrong here?
+from game_environment import Snake
 import numpy as np
 
-env = Snake(board_size=10, frames=2, n_games=3)
+# Snake class is for single game testing
+# For parallel games, use SnakeNumpy with games parameter
+env = Snake(board_size=10, frames=2, version='v17.1')
 s = env.reset()
 env.print_game()
 '''

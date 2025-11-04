@@ -16,7 +16,7 @@ from agent import BreadthFirstSearchAgent, SupervisedLearningAgent
 import json
 
 # some global variables
-version = 'v15.5'
+version = 'v17.1'
 
 # get training configurations
 with open('model_config/{:s}.json'.format(version), 'r') as f:
